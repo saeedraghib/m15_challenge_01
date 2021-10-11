@@ -81,7 +81,6 @@ def close(session_attributes, fulfillment_state, message):
 
 
 """
-
 Step 3: Enhance the Robo Advisor with an Amazon Lambda Function
 
 In this section, you will create an Amazon Lambda function that will validate the data provided by the user on the Robo Advisor.
@@ -109,7 +108,6 @@ In this section, you will create an Amazon Lambda function that will validate th
 6. After successfully testing your code, open the Amazon Lex Console and navigate to the `recommendPortfolio` bot configuration, integrate your new Lambda function by selecting it in the “Lambda initialization and validation” and “Fulfillment” sections.
 
 7. Build your bot, and test it with valid and invalid data for the slots.
-
 
 """
 
